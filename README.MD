@@ -12,3 +12,6 @@ export PATH=$PATH:/home/$USER/Dev/wxWidgets-3.2.1/build-gtk
 # unused
 // sudo make install
 // sudo ldconfig
+
+# build command
+ccmake -G "Unix Makefiles" ..
